@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contatos</title>
     <link rel="stylesheet" href="bootstrap.min.css"/>
     <script type="text/javascript" src="jquery-3.1.0.min.js" ></script>
     <script type="text/javascript" src="bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <?php
-        include 'contato.class.php';
+        include 'contatos.class.php';
         $contato = new Contato();
-        $contato->adicionar('Danielzcomputacao@gmail.com', 'Juresvaldo Junior')
     ?>
     <div class="container text-center">
         <div class="navbar navbar-expand-lg navbar-brand">
@@ -26,7 +25,7 @@
                 <tr>
                     <th>Id</th>
                     <th>Nome</th>
-                    <th>Email</th>
+                    <th>E-mail</th>
                     <th>Ações</th>
                 </tr>
             </thead>    
